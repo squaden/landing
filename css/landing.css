@@ -1,0 +1,62 @@
+.intro {
+  background-image: url(../images/ship.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 480px;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1280px;
+}
+
+.content {
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
+
+.container {
+  background: #f3f3f3;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.prices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.prices-items {
+  border: 3px solid #404040;
+  box-sizing: border-box;
+  flex-basis: 300px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.footer {
+  background: #404040;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
